@@ -31,6 +31,7 @@ using System.Windows.Shapes;
 using System.Windows.Shell;
 using gyak.Pages;
 
+
 namespace gyak.Pages {
     
     
