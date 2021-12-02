@@ -12,19 +12,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using gyak.Navigation;
+
 
 namespace gyak.Pages
 {
     /// <summary>
     /// Interaction logic for UserControl1.xaml
     /// </summary>
-    public partial class UserControl1 : UserControl
+    public partial class WelcomePage : UserControl
     {
-        public UserControl1()
+        public WelcomePage()
         {
             InitializeComponent();
-            Navigate.main
+            
         }
     }
 }

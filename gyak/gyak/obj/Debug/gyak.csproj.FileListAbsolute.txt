@@ -1,0 +1,6 @@
+C:\Users\sz0varzol\Documents\GUI\gyak\gyak\obj\Debug\gyak.csprojAssemblyReference.cache
+C:\Users\sz0varzol\Documents\GUI\gyak\gyak\obj\Debug\MainWindow.g.cs
+C:\Users\sz0varzol\Documents\GUI\gyak\gyak\obj\Debug\Pages\WelcomePage.g.cs
+C:\Users\sz0varzol\Documents\GUI\gyak\gyak\obj\Debug\App.g.cs
+C:\Users\sz0varzol\Documents\GUI\gyak\gyak\obj\Debug\gyak_MarkupCompile.cache
+C:\Users\sz0varzol\Documents\GUI\gyak\gyak\obj\Debug\gyak_MarkupCompile.lref

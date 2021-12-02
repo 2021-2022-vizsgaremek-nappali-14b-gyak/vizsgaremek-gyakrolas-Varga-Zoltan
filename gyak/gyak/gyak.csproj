@@ -73,7 +73,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Navigation\Navigation.cs" />
+    <Compile Include="Navigation\Navigate.cs" />
     <Compile Include="Pages\WelcomePage.xaml.cs">
       <DependentUpon>WelcomePage.xaml</DependentUpon>
     </Compile>
