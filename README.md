@@ -1,2 +1,2 @@
-# vizsgaremek-gyak-tmpl
-Viszgaremek gyakorlás
+# gycsaba-vasvari
+Vizsgaremek
