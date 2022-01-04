@@ -8,10 +8,11 @@
 	  <RuntimeIdentifier>win-x64</RuntimeIdentifier>
 	  <UseWPF>true</UseWPF>
 	  <Version>0.0.3.0</Version>
-	  <Authors>Gyuris Csaba</Authors>
+	  <Authors>Varga Zoltán Dominik</Authors>
 	  <Company>Vasvári</Company>
 	  <Product />
 	  <Description>Program verzió navigáció működik</Description>
+	  <NeutralLanguage>hu-HU</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
