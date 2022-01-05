@@ -34,12 +34,9 @@ namespace Vizsgaremek.Models
             }
         }
 
-        public string Title { get { return title; } }
-
-        public string Description { get { return description; } }
-        public string Company { get { return company; } }
-
-
+        public string Title { get => title; set => title = value; }
+        public string Description { get => description; set => description = value; }
+        public string Company { get => company; set => company = value; }
 
         public ProgramInfo()
         {
@@ -54,13 +51,19 @@ namespace Vizsgaremek.Models
                     description = ((AssemblyDescriptionAttribute)attr).Description;
                 else if (attr.GetType() == typeof(AssemblyCompanyAttribute))
                     company = ((AssemblyCompanyAttribute)attr).Company;
+               // else if (attr.GetType() == typeof(AssemblyCompanyAttribute))
+                 //   authors = ((AssemblyCompanyAttribute)attr).//Authors;
 
             }
 
         }
 
-
-
-
+        public ProgramInfo(string authors, string title, string description, string company)
+        {
+            this.authors = authors;
+            this.title = title;
+            this.description = description;
+            this.company = company;
+        }
     }
 }
