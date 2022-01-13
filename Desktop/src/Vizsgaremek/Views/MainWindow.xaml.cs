@@ -43,6 +43,16 @@ namespace Vizsgaremek
             WelcomePage welcomePage = new WelcomePage();
             // Megjelnítjük a WelcomePage-t
             Navigate.Navigation(welcomePage);
+
+
+            databaseSourceViewModel.ChangeDatabaseSource += DatabaseSourceViewModel_ChangeDatabaseSource;
+        }
+
+        private void DatabaseSourceViewModel_ChangeDatabaseSource(object sender, EventArgs e)
+        {
+            DatabaseSourceEventArg dsea = (DatabaseSourceEventArg)e;
+            mainWindowViewModel.SelectedSource = dsea.DatabaseSource;
+
         }
 
         /// <summary>

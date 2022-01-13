@@ -31,9 +31,12 @@ namespace Vizsgaremek.ViewModels
                 selectedDatabaseSource = value;
                 displayedDatabaseSource = DisplayedDatabaseSource;
                 dbSource = DbSource;
+                OnDatabaseSourceChange();
             }
         }
 
+
+    
         public DbSource DbSource
         {
             get
@@ -67,6 +70,20 @@ namespace Vizsgaremek.ViewModels
             }
             
         }
+        public event EventHandler ChangeDatabaseSource;
+        protected void OnDatabaseSourceChange()
+        {
+            // Argumentumba belepakoljuk az üzenetet
+            DatabaseSourceEventArg dsea = new DatabaseSourceEventArg(DisplayedDatabaseSource);
+            // Ha van esemény akkor meghívjük a feliratkozott osztályokat;
+            if (ChangeDatabaseSource != null)
+                ChangeDatabaseSource.Invoke(this, dsea);
+        }
+
+
+
+
+
 
         public DatabaseSourceViewModel()
         {
